@@ -36,3 +36,6 @@ make submit app_path=/app/top_nmw_score.py
 Find all report csv files in `reports/` directory. Once the apps run they will overwrite those reports. I mounted a docker volume so that reports get updated after each run.
 
 Also, visit http://localhost:8080/ to explore app metrics.
+
+## Possible Streaming Solution
+If I were to process this data in a streaming app I would add Kafka and Kafka connect to to the picture. I stream change data capture events from the Postgres database to Kafka and then I would modify my apps to do structured streaming with Spark. Instead of writing to CSV, I would write to separate Kafka topic.

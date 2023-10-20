@@ -1,0 +1,11 @@
+Rank,FIPS,County,State,Share Would Wear,Share Would Not Wear,Population,Net Mask Wearer Score
+1,06037,Los Angeles County,California,0.917,0.034,9943046,8779710.0
+2,17031,Cook County,Illinois,0.884,0.044,5108284,4290958.5
+3,48201,Harris County,Texas,0.888,0.042999998,4738253,4003824.0
+4,04013,Maricopa County,Arizona,0.892,0.048,4579081,3864744.5
+5,06073,San Diego County,California,0.926,0.04,3332427,2952530.2
+6,06059,Orange County,California,0.91,0.044,3166857,2742498.2
+7,48113,Dallas County,Texas,0.898,0.042999998,2635888,2253684.2
+8,12086,Miami-Dade County,Florida,0.884,0.055,2707303,2244354.2
+9,06065,Riverside County,California,0.91899997,0.04,2489188,2187996.0
+10,36047,Kings County,New York,0.873,0.069000006,2538934,2041303.0

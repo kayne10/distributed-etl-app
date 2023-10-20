@@ -1,7 +1,7 @@
 seed-db:
 	docker compose up -d postgres;
-	echo "Waiting 5 seconds for service to start...";
-	sleep 5;
+	echo "Waiting 10 seconds for service to start...";
+	sleep 10;
 	PGPASSWORD=testlab01 \
 	psql -U postgres -h localhost -d nyt_covid19 -a -f ./seed/schema_data.sql
 build:

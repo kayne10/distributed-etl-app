@@ -5,7 +5,7 @@ CREATE TABLE county_population(
 	population_estimate_2020 INTEGER NOT NULL
 );
 
-INSERT INTO county_population (fips, county_name, state_name, population_estimate_2020)
+INSERT INTO county_population (fips, state_name, county_name, population_estimate_2020)
 VALUES
 	('01001', 'Alabama', 'Autauga County', 56145),
 	('01003', 'Alabama', 'Baldwin County', 229287),

@@ -17,8 +17,6 @@ services:
     image: distributed-etl-app/etl-master:development
     depends_on:
       - postgres
-    env_file:
-      - ./etl-worker/.env
     ports:
       - 7077:7077
       - 8080:8080
