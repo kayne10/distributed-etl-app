@@ -31,6 +31,10 @@ make submit app_path=/app/rolling_avg.py
 # Run top 10 net mask wear score app
 make submit app_path=/app/top_nmw_score.py
 ```
+**Spin down cluster**
+```bash
+make down
+```
 
 ## Results
 Find all report csv files in `reports/` directory. Once the apps run they will overwrite those reports. I mounted a docker volume so that reports get updated after each run.
