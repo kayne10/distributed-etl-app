@@ -43,3 +43,7 @@ Also, visit http://localhost:8080/ to explore app metrics.
 
 ## Possible Streaming Solution
 If I were to process this data in a streaming app I would add Kafka and Kafka connect to to the picture. I stream change data capture events from the Postgres database to Kafka and then I would modify my apps to do structured streaming with Spark. Instead of writing to CSV, I would write to separate Kafka topic.
+
+## Data
+
+The data involved with this projects is copyrighted by The New York Times Company. The license can be found [here](https://github.com/nytimes/covid-19-data/blob/master/LICENSE).
